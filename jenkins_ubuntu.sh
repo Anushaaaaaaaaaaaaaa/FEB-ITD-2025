@@ -3,8 +3,8 @@
 echo "1. Updating................"
 sudo apt update
 
-echo "2. Installing Openjdk 17"
-sudo apt install -y openjdk-17-jdk
+echo "2. Installing Openjdk 21"
+sudo apt install -y openjdk-21-jdk
 
 echo "3. Adding Jenkins package to apt list"
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
